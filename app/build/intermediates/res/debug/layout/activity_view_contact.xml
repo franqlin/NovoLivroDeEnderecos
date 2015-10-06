@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" android:layout_weight="1">
+   <TableLayout
+      android:layout_height="wrap_content"
+      android:layout_width="match_parent"
+      android:shrinkColumns="*"
+      android:stretchColumns="*"
+      android:background="#ffffff"
+      android:layout_margin="5dp">
+      <TableRow android:id="@+id/nameTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+          style="@style/text_label">
+         <TextView android:id="@+id/nomeTextView"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_gravity="center_horizontal"
+             style="@style/text_label"></TextView>
+
+      </TableRow>
+      <TableRow android:id="@+id/phoneTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/telefoneTextView"
+            style="@style/ContactTextView"
+            android:clickable="true"
+            android:onClick="goPhone"
+            >
+
+         </TextView>
+      </TableRow>
+
+
+      <TableRow android:id="@+id/emailTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/emailTextView"
+            style="@style/ContactTextView"
+            android:clickable="true"
+            android:onClick="mailTo"
+            ></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/streetTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/enderecoTextView"
+            style="@style/ContactTextView"
+            android:onClick="goMap"
+            android:clickable="true"
+            ></TextView>
+      </TableRow>
+
+      <TableRow android:id="@+id/stateTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+      </TableRow>
+
+       <TableRow android:id="@+id/cityTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+         <TextView android:id="@+id/cidadeTextView"
+            style="@style/ContactTextView"></TextView>
+
+      </TableRow>
+
+       <TableRow
+           android:layout_width="match_parent"
+           android:layout_height="match_parent">
+
+       </TableRow>
+
+       <TableRow android:id="@+id/salvarTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+           <Button android:id="@+id/salvarButton"
+               android:background="@drawable/red_button"
+               android:layout_width="fill_parent"
+               android:layout_height="wrap_content"
+               android:onClick="goSave"
+               android:clickable="true"
+               android:text="Salvar na agenda"
+               style="@style/button_text"></Button>
+
+      </TableRow>
+
+
+      <TableRow android:id="@+id/cepTableRow"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+      </TableRow>
+   </TableLayout>
+</ScrollView>
+<!-- From: file:/C:/Users/fssantos/Documents/sistema/sibsistem/platforms/EloAddressBook/app/src/main/res/layout/activity_view_contact.xml -->

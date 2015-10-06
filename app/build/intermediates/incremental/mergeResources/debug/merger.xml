@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger version="3"><dataSet config="main"><source path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res"><file name="textview_border" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\drawable\textview_border.xml" qualifiers="" type="drawable"/><file name="ic_launcher" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\drawable-hdpi\ic_launcher.png" qualifiers="hdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\drawable-mdpi\ic_launcher.png" qualifiers="mdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\drawable-xhdpi\ic_launcher.png" qualifiers="xhdpi" type="drawable"/><file name="ic_launcher" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\drawable-xxhdpi\ic_launcher.png" qualifiers="xxhdpi" type="drawable"/><file name="activity_add_contact" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\layout\activity_add_contact.xml" qualifiers="" type="layout"/><file name="activity_view_contact" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\layout\activity_view_contact.xml" qualifiers="" type="layout"/><file name="contact_list_item" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\layout\contact_list_item.xml" qualifiers="" type="layout"/><file name="add_contact" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\menu\add_contact.xml" qualifiers="" type="menu"/><file name="principal" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\menu\principal.xml" qualifiers="" type="menu"/><file name="view_contact" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\menu\view_contact.xml" qualifiers="" type="menu"/><file path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\values\dimens.xml" qualifiers=""><dimen name="activity_horizontal_margin">16dp</dimen><dimen name="activity_vertical_margin">16dp</dimen></file><file path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\values\strings.xml" qualifiers=""><string name="button_cancel">Cancelar</string><string name="hint_email">Email</string><string name="hint_nome">Nome</string><string name="action_settings">Configuração</string><string name="label_cep">Estado:</string><string name="hint_nota">Nota</string><string name="confirmTitle">Você tem certza?</string><string name="hint_street">Rua/Bairro/Número/Cidade</string><string name="label_nota">Nota:</string><string name="label_nome">Nome:</string><string name="menuitem_edit_contact">[#]Editar</string><string name="errorButton">OK</string><string name="menuitem_delete_contact">[-]Apagar</string><string name="button_delete">Apagar</string><string name="button_add_contact">Novo Contato</string><string name="hello_world">Hello world!</string><string name="hint_telefone">Telefone</string><string name="errorMessage">O nome do contato é obrigatório</string><string name="button_buscar">Buscar</string><string name="button_save_contact">Salvar</string><string name="label_email">Email:</string><string name="label_telefone">Telefone:</string><string name="confirmMessage">Você apagará o contato para sempre!</string><string name="address">Endereço</string><string name="title_activity_view_contact">Elo</string><string name="menuitem_add_contact">[+] novo </string><string name="label_state">CEP:</string><string name="label_endereco">Endereço:</string><string name="errorTitle">Campo obrigatório</string><string name="app_name">Elo</string><string name="title_activity_onde_estou">OndeEstouActivity</string><string name="title_activity_add_contact">Elo</string></file><file path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\values\styles.xml" qualifiers=""><style name="ContactTextView">
+      <item name="android:layout_width">wrap_content</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:textSize">16sp</item>
+      <item name="android:textColor">@android:color/black</item>
+      <item name="android:layout_margin">5dp</item>
+      <item name="android:background">@drawable/textview_border</item>
+   </style><style name="AppBaseTheme" parent="android:Theme.Black">
+    </style><style name="text_label">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">15dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style><style name="Title">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:layout_marginLeft">5dp</item>
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:layout_marginTop">5dp</item>
+    </style><style name="button_text">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">30dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style><style name="ContactLabelTextView">
+      <item name="android:layout_width">wrap_content</item>
+      <item name="android:layout_height">wrap_content</item>
+      <item name="android:gravity">right</item>
+      <item name="android:textSize">14sp</item>
+      <item name="android:textColor">@android:color/black</item>
+      <item name="android:layout_marginLeft">5dp</item>
+      <item name="android:layout_marginRight">5dp</item>
+      <item name="android:layout_marginTop">5dp</item>
+   </style><style name="AppTheme" parent="AppBaseTheme">
+    </style></file><file path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\values-sw720dp-land\dimens.xml" qualifiers="sw720dp-land"><dimen name="activity_horizontal_margin">128dp</dimen></file><file path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\values-v11\styles.xml" qualifiers="v11"><style name="AppBaseTheme" parent="android:Theme.Holo.Light">
+        <!-- API 11 theme customizations can go here. -->
+    </style></file><file name="red_button" path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\drawable\red_button.xml" qualifiers="" type="drawable"/><file path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\main\res\values\saporra.xml" qualifiers=""><color name="translucent_bosta">#80ffdb1f</color><color name="opaque_red">#f00</color><color name="translucent_red">#80ff0000</color></file></source><source path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\build\generated\res\rs\debug"/><source path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\build\generated\res\generated\debug"/></dataSet><dataSet config="debug"><source path="C:\Users\fssantos\Documents\sistema\sibsistem\platforms\EloAddressBook\app\src\debug\res"/></dataSet><mergedItems/></merger>

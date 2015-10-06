@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+   android:layout_width="match_parent"
+   android:layout_height="wrap_content" android:layout_weight="1">
+   <LinearLayout android:id="@+id/linearLayout"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:orientation="vertical" android:padding="5dp"
+       android:weightSum="1">
+
+       <TextView
+           android:id="@+id/dadosTextView"
+           android:color="@android:color/black"
+           android:textSize="18sp"
+           android:paddingTop="10dp"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:imeOptions="actionNext"
+           android:text="Informações"
+           android:layout_gravity="center_horizontal"
+           style="@style/text_label" />
+
+       <EditText android:id="@+id/nomeEditText"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:imeOptions="actionNext" android:hint="@string/hint_nome"
+         android:inputType="textPersonName|textCapWords"></EditText>
+      <EditText android:id="@+id/telefoneEditText"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:imeOptions="actionNext" android:hint="@string/hint_telefone"
+         android:inputType="phone"></EditText>
+      <EditText android:id="@+id/emailEditText"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:imeOptions="actionNext" android:hint="@string/hint_email"
+         android:inputType="textEmailAddress"></EditText>
+      <TextView android:id="@+id/addressTextView"
+         android:color="@android:color/black" android:textSize="18sp"
+         android:paddingTop="10dp" android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:imeOptions="actionNext"
+         android:text="@string/address"
+          android:layout_gravity="center_horizontal"
+          style="@style/text_label"></TextView>
+      <EditText android:id="@+id/enderecoEditText"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:imeOptions="actionNext" android:hint="@string/hint_street"
+         android:inputType="textPostalAddress|textCapWords"></EditText>
+      <EditText android:id="@+id/notaEditText"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:imeOptions="actionDone" android:hint="@string/hint_nota"
+         android:inputType="textPostalAddress|textCapWords"></EditText>
+
+      <ProgressBar
+     android:layout_width="wrap_content"
+     android:id="@+id/progressBar1"
+     android:layout_height="wrap_content"
+android:layout_gravity="center_horizontal"></ProgressBar>
+
+       <Button android:id="@+id/buscarEndereco"
+         android:background="@drawable/red_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/button_buscar"
+           style="@style/button_text"></Button>
+
+       <Button android:id="@+id/saveContactButton"
+         android:background="@drawable/red_button"
+         android:layout_width="fill_parent"
+         android:layout_height="wrap_content"
+         android:text="@string/button_save_contact"
+          style="@style/button_text"></Button>
+
+   </LinearLayout>
+
+
+</ScrollView>

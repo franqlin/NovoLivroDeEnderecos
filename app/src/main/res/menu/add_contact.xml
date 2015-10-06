@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+   <item android:id="@+id/addContactItem"
+      android:icon="@android:drawable/ic_menu_add"
+      android:showAsAction="always|withText"
+      android:title="Novo"
+      >
+   </item> 
+   <item android:id="@+id/ondeEstou"
+         android:icon="@android:drawable/ic_menu_myplaces"
+         android:showAsAction="always|withText"
+         android:title="Onde estou?"
+   >
+   </item>   
+   
+   
+   
+  </menu>
+
